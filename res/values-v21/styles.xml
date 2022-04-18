@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="Widget.Screen_off_widget.AppWidget.Container" parent="android:Widget">
+        <item name="android:padding">?attr/appWidgetPadding</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="Widget.Screen_off_widget.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:padding">?attr/appWidgetPadding</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+</resources>

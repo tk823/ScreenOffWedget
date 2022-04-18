@@ -1,0 +1,22 @@
+android_app {
+    name: "ScreenOffWedget",
+    srcs: ["java/**/*.kt"],
+    resource_dirs: ["res"],
+    platform_apis: true,
+    certificate: "platform",
+    privileged: true,
+    required: ["privapp_whitelist_com.tapps.screenoffwidget"],
+    static_libs: [
+        "kotlin-stdlib",
+        "androidx.preference_preference",
+        "androidx.appcompat_appcompat",
+        "com.google.android.material_material"
+    ],
+}
+
+prebuilt_etc {
+    name: "privapp_whitelist_com.tapps.screenoffwidget",
+    sub_dir: "permissions",
+    src: "screenoffwidget.xml",
+    filename_from_src: true,
+}

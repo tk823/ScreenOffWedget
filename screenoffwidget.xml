@@ -1,0 +1,5 @@
+<permissions>
+    <privapp-permissions package="com.tapps.screenoffwidget">
+        <permission name="android.permission.DEVICE_POWER" />
+    </privapp-permissions>
+</permissions>
